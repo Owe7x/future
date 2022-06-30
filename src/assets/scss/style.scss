@@ -1,0 +1,35 @@
+@import "vars";
+@import "vendor/reset";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #181818;
+
+    font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $white;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Blocks */
+@import "../scss/blocks/stylesheet.scss";
+@import "../scss/blocks/header.scss";
+@import "../scss/blocks/main.scss";
+@import "../scss/blocks/utils.scss";
+@import "../scss/blocks/footer.scss";
+@import "../scss/blocks/media.scss";
+
+
+
+

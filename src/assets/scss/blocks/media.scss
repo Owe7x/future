@@ -1,0 +1,334 @@
+@media screen and (max-width: 1300px) {
+    .header {
+        padding: 20px 30px;
+    }
+    .main {
+        padding: 0 30px;
+    }
+    .footer {
+        padding: 80px 30px;
+    }
+    .main__block {
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .main__container::after {
+        background-size: cover;
+        width: 673px;
+        height: 574px;
+        top: -50px;
+        right: -80px;
+    }
+    .main__title {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .main__subtitle {
+        font-size: 32px;
+        line-height: 130%;
+    }
+    .max-900 {
+        max-width: 800px;
+    }
+    .main__subtitle--bold {
+        font-size: 32px;
+    }
+    .main__text--normal {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1100px) { 
+    .main__container::after {
+        background-size: contain;
+        width: 573px;
+        height: 474px;
+        top: 10px;
+        right: -80px;
+    }
+    .main__block {
+        max-width: 450px;
+    }
+    .main__text {
+        font-size: 18px;
+    }
+    .for__blocks {
+        column-gap: 35px;
+        row-gap: 65px;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 992px) { 
+    .main__container::after {
+        display: none;
+    }
+    .main__block {
+        max-width: 400px;
+    }
+    .contest__blocks {
+        row-gap: 60px;
+    }
+    .footer__blocks {
+        flex-wrap: wrap;
+        row-gap: 40px;
+    }
+    .header__list {
+        column-gap: 45px;
+    }
+
+}
+@media screen and (max-width: 768px) {  
+    .main__title {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .main__subtitle {
+        font-size: 26px;
+        line-height: 120%;
+    }
+    .max-900 {
+        max-width: 600px;
+    }
+    .main__subtitle--bold {
+        font-size: 26px;
+    }
+    .main__text--normal {
+        font-size: 26px;
+    }
+    .header__list {
+        display: none;
+    }
+}
+@media screen and (max-width: 650px) {  
+    .main__title {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .main__subtitle {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .main__text {
+        font-size: 16px;
+    }
+    .main__tech {
+        font-size: 18px;
+        margin-bottom: 80px;
+    }
+    .main__tech::after {
+        width: 457px;
+        height: 48px;
+    }
+}
+@media screen and (max-width: 550px) {  
+    .header {
+        margin-bottom: 100px;
+    }
+    .main__title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main__subtitle {
+        font-size: 18px;
+        line-height: 130%;
+    }
+    .max-900 {
+        max-width: 450px;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .mb-60 {
+        margin-bottom: 50px;
+    }
+    .mb-90 {
+        margin-bottom: 70px;
+    }
+    .btn__register {
+        max-width: 300px;
+        height: 66px;
+        font-size: 20px;
+    }
+    .main__blocks {
+        margin-bottom: 70px;
+    }
+    .main__tech {
+        margin-bottom: 70px;
+    }
+    .event {
+        margin-bottom: 70px;
+    }
+    .event__blocks {
+        row-gap: 70px;
+    }
+    .event__name {
+        font-size: 20px;
+    }
+    .event-after-1::after {
+        width: 107px;
+    }
+    .event-after-2::after {
+        width: 107px;
+    }
+    .event-after-3::after {
+        width: 167px;
+    }
+    .event-after-4::after {
+        width: 44px;
+    }
+    .event-after-5::after {
+        width: 124px;
+    }
+    .contest__name {
+        font-size: 20px;
+    }
+    .contest__name-after-1::after {
+        width: 160px;
+        height: 32px;
+    }
+    .contest__name-after-2::after {
+        width: 60px;
+        height: 32px;
+    }
+    .contest__name-after-3::after {
+        width: 223px;
+        height: 64px;
+    }
+    .form__title {
+        font-size: 26px;
+    }
+    .main__subtitle--bold {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .main__text--normal {
+        font-size: 22px;
+        line-height: 120%;
+    }
+    .footer__footer {
+        flex-wrap: wrap;
+        row-gap: 50px;
+    }
+}
+@media screen and (max-width: 475px) {  
+    .main__title {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .main__subtitle {
+        font-size: 16px;
+    }
+    .main__text {
+        font-size: 14px;
+    }
+    .mb-30 {
+        margin-bottom: 20px;
+    }
+    .btn__register {
+        max-width: 280px;
+        height: 56px;
+        font-size: 18px;
+    }
+    .for__blocks {
+        row-gap: 35px;
+        column-gap: 5px;
+    }
+    .for__block::after {
+        display: none;
+    }
+    .for__title {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .for__li {
+        font-size: 12px;
+    }
+    .for__ul {
+        row-gap: 10px;
+    }
+    .for__img {
+        max-width: 130px;
+        display: block;
+        margin: 0 auto 15px;
+    }
+    .main__tech {
+        font-size: 16px;
+    }
+    .main__tech::after {
+        width: 417px;
+        height: 42px;
+    }
+    .main__subtitle--bold {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    .main__text--normal {
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .footer__title {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .footer__name {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .footer__copy {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 425px) {  
+    .page {
+        background-position: center;
+    }
+    .header {
+        padding: 20px 15px;
+    }
+    .main {
+        padding: 0 15px;
+    }
+    .footer {
+        padding: 40px 15px;
+    }
+}
+@media screen and (max-width: 400px) {  
+    .main__title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .main__subtitle {
+        font-size: 14px;
+    }
+    .main__text {
+        font-size: 12px;
+    }
+    .btn__register {
+        max-width: 260px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .btn__watch {
+        font-size: 14px;
+        max-width: 175px;
+        height: 32px;
+    }
+    .main__tech::after {
+        width: 280px;
+        height: 46px;
+        top: -5px;
+        left: -10px;
+    }
+    .form {
+        padding: 35px 20px 30px;
+    }
+    .register {
+        margin-bottom: 60px;
+    }
+    .main__subtitle--bold {
+        font-size: 16px;
+    }
+    .main__text--normal {
+        font-size: 16px;
+    }
+}
