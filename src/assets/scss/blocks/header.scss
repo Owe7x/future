@@ -49,7 +49,7 @@
 
 .header .checkbox {
     position: absolute;
-    display: block;
+    display: none;
     height: 32px;
     width: 32px;
     top: 40px;
@@ -60,14 +60,13 @@
 }
 
 .header .hamburger-lines {
-    display: block;
     height: 26px;
     width: 32px;
     position: absolute;
     top: 40px;
     right: 20px;
     z-index: 3;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
   }

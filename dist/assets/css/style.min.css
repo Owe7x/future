@@ -412,7 +412,7 @@ body {
 
 .header .checkbox {
   position: absolute;
-  display: block;
+  display: none;
   height: 32px;
   width: 32px;
   top: 40px;
@@ -422,14 +422,13 @@ body {
   cursor: pointer; }
 
 .header .hamburger-lines {
-  display: block;
   height: 26px;
   width: 32px;
   position: absolute;
   top: 40px;
   right: 20px;
   z-index: 3;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between; }
 
@@ -1057,7 +1056,11 @@ body {
   .main__text--normal {
     font-size: 26px; }
   .header__list {
-    display: none; } }
+    display: none; }
+  .header .hamburger-lines {
+    display: flex; }
+  .header .checkbox {
+    display: flex; } }
 
 @media screen and (max-width: 650px) {
   .main__title {

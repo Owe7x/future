@@ -98,6 +98,12 @@
     .header__list {
         display: none;
     }
+    .header .hamburger-lines { 
+        display: flex;
+    }
+    .header .checkbox {
+        display: flex;
+    }
 }
 @media screen and (max-width: 650px) {  
     .main__title {
