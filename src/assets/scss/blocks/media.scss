@@ -217,6 +217,9 @@
     }
 }
 @media screen and (max-width: 475px) {  
+    .page {
+        background-image: url(../images/bg-mobile.jpg);
+    }
     .main__title {
         font-size: 35px;
         line-height: 35px;
@@ -284,9 +287,9 @@
         font-size: 14px;
     }
 }
-@media screen and (max-width: 425px) {  
+@media screen and (max-width: 430px) {  
     .page {
-        background-position: center;
+        background-position: right;
     }
     .header {
         padding: 20px 15px;

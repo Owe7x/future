@@ -1,0 +1,42 @@
+.page-thanks {
+    background-image: url(../images/bg-thanks.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}   
+.logo-thanks {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+.thanks__block {
+    max-width: 700px;
+    padding: 0 20px;
+}
+.thanks__title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 64px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.thanks__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 475px) {
+    .thanks__title {
+        font-size: 34px;
+        line-height: 54px;
+    }
+    .thanks__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
