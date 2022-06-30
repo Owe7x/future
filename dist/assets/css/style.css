@@ -482,15 +482,13 @@ body {
 }
 
 .header .hamburger-lines {
-    display: none;
     height: 26px;
     width: 32px;
     position: absolute;
     top: 40px;
     right: 20px;
     z-index: 3;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: justify;
@@ -1342,6 +1340,16 @@ body {
 
     .header__list {
         display: none;
+    }
+
+    .header .hamburger-lines {
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .header .checkbox {
+        display: -ms-flexbox;
+        display: flex;
     }
 }
 
