@@ -1109,6 +1109,46 @@ body {
     margin: 0 auto 100px;
 }
 
+.checkbox-registr {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.org {
+    max-width: 1161px;
+    background-color: #fff;
+    margin: 0 auto 120px;
+    padding: 30px 45px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px 0px #ff0031;
+}
+
+.org__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.org__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -1210,6 +1250,58 @@ body {
     line-height: 120%;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.page-thanks {
+    background-image: url(../images/bg-thanks.png);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.logo-thanks {
+    position: absolute;
+    top: 36px;
+    left: 36px;
+}
+
+.thanks__block {
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.thanks__title {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 64px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.thanks__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 475px) {
+    .thanks__title {
+        font-size: 34px;
+        line-height: 54px;
+    }
+
+    .thanks__text {
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -1497,6 +1589,10 @@ body {
 }
 
 @media screen and (max-width: 475px) {
+    .page {
+        background-image: url(../images/bg-mobile.jpg);
+    }
+
     .main__title {
         font-size: 35px;
         line-height: 35px;
@@ -1584,9 +1680,9 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
     .page {
-        background-position: center;
+        background-position: right;
     }
 
     .header {
