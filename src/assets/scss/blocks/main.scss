@@ -210,7 +210,7 @@
     display: block;
     content: '';
 }
-.event__block:nth-child(1)::after {
+.event-after-b-1::after {
     background-image: url(../images/event-1.png);
     width: 198px;
     height: 223px;
@@ -218,7 +218,7 @@
     bottom: -50px;
     right: 0;
 }
-.event__block:nth-child(2)::after {
+.event-after-b-2::after {
     background-image: url(../images/event-2.png);
     width: 354px;
     height: 171px;
@@ -226,7 +226,7 @@
     bottom: 0px;
     right: 0;
 }
-.event__block:nth-child(3)::after {
+.event-after-b-3::after {
     background-image: url(../images/event-4.png);
     width: 193px;
     height: 162px;
@@ -234,7 +234,7 @@
     bottom: -10px;
     right: 0;
 }
-.event__block:nth-child(4)::after {
+.event-after-b-4::after {
     background-image: url(../images/event-5.png);
     width: 128px;
     height: 259px;
@@ -242,7 +242,7 @@
     bottom: -50px;
     right: 0;
 }
-.event__block:nth-child(5)::after {
+.event-after-b-5::after {
     background-image: url(../images/event-3.png);
     width: 215px;
     height: 160px;
