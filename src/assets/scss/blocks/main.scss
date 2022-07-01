@@ -83,13 +83,16 @@
 
 .for__blocks {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 60px;
+    
 }
 .for__block {
     position: relative;
-    max-width: 205px;
+    max-width: 537px;
+    padding: 0 100px;
+    
     
 }
 .for__block::after {
@@ -97,7 +100,7 @@
     content: '';
     position: absolute;
     width: 1px;
-    height: 427px;
+    height: 330px;
     background: #fff;
     top: 0;
     right: 0;
@@ -106,6 +109,8 @@
     display: none;
 }
 .for__img {
+    display: block;
+    margin: 0 auto;
     margin-bottom: 15px;
 }
 .for__title {
@@ -410,7 +415,7 @@
     line-height: 130%;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 .main__text--normal {
     font-weight: 400;
